@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- 
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation= "horizontal"
+	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content">	   
+   	    <TextView
+   	        android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="经度:"
+   	   	 />
+   	    <EditText
+   	        android:id="@+id/editView1"
+   	        android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="113.344"
+   	   	/>   	
+   	   	<TextView
+   	        android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="纬度:"
+   	   	 />
+   	    <EditText
+   	        android:id="@+id/editView2"
+   	        android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="23.141"
+   	   	/> 
+   	   	<Button
+   	   	    android:id="@+id/button1"
+   	   	    android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="查询"
+   	   	/>   	   	      	                  
+	</LinearLayout>
+	 -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation= "horizontal"
+	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content">	   
+   	    <TextView
+   	        android:id="@+id/addressView"
+   	        android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="  "
+   	   	    
+   	   	/> 
+   	   		      	          	         
+	</LinearLayout>  
+	<!--  
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation= "horizontal"
+	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content">
+	    
+	    <Button
+   	   	    android:id="@+id/button1"
+   	   	    android:layout_width="wrap_content"
+   	   	    android:layout_height="wrap_content"
+   	   	    android:text="查询"
+   	   	/>   
+	</LinearLayout> 
+	--> 
+	<com.google.android.maps.MapView
+	    android:id="@+id/myMapView"
+	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content" 
+   	    android:clickable="true"
+   	    android:apiKey="0ODAd7g7iFafOOPM8l1BYSnml5rPCd3mIORzjzw" 
+    />	
+</LinearLayout>
